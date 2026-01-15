@@ -1,0 +1,55 @@
+# Build
+bin/
+obj/
+[Ll]og/
+[Bb]uild/
+x64/
+x86/
+
+# IDE (Visual Studio)
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Logs, temp & cache
+*.log
+*.tmp
+*.cache
+*.bak
+
+# User / system files
+.DS_Store
+Thumbs.db
+
+# Publish output
+publish/
+PublishScripts/
+
+# Node.js (frontend in wwwroot o SPA)
+node_modules/
+dist/
+
+!bootstrap-italia/dist/
+!bootstrap-italia/dist/**
+
+# Database
+*.mdf
+*.ldf
+*.dbmdl
+
+# File npm
+../package.json
+../package-lock.json
+
+wwwroot/lib/
+node_modules/
